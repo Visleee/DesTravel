@@ -1,0 +1,173 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height:100vh;
+}
+
+*,
+body{
+    margin:0;
+    padding:0;
+}
+
+.logo{
+    position:absolute;
+    display: flex;
+    width: 80%;
+    height: 80%;
+    margin-top: 15px;
+    margin-left: 130px;
+}
+
+#searchBar{
+    position: absolute;
+    width: 200%;
+    height: 30%;
+    margin-top: 30px;
+    margin-left: 425px;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+a{
+    text-decoration:none;
+    color: black;  
+    transition: 0.3s ease-in-out;
+  }
+  
+  a>div:hover{
+      color: white;
+      
+  }
+
+.container-navbar {
+    background: rgb(138, 235, 255);
+    z-index: 6;
+    width: 100%;
+    height: 15vh;
+    position:fixed;
+}
+
+.ul-navbar {
+    position: absolute;
+    display: flex;
+    height: 100px;
+    margin-top:15px;
+    margin-left: 200px;
+
+}
+
+.li-navbar {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 20px;
+    margin: 5px;
+
+    color: black;
+    text-decoration:100px solid;
+    font-size: 30px;
+}
+
+.kacaPembesar{
+    position: absolute;
+    width: 25%;
+    z-index: 6;
+    height: 25%;
+    margin-left: 88%;
+    margin-top: 45px;
+
+
+    display: flex;
+}
+
+.Asal{
+    position: absolute;
+    font-size: 25px;
+    margin-top: 175px;
+    margin-left: 225px;
+}
+
+.Tujuan{
+    position: absolute;
+    font-size: 25px;
+    margin-top: 175px;
+    margin-left: 650px;
+}
+
+.Kelas-Penerbangan{
+    position: absolute;
+    font-size: 25px;
+    margin-top: 175px;
+    margin-left: 1100px;
+}
+
+.Tanggal-Pergi{
+    position: absolute;
+    font-size: 25px;
+    margin-top: 325px;
+    margin-left: 225px;
+}
+
+.tanggal-pulang{
+    position: absolute;
+    font-size: 25px;
+    margin-top: 325px;
+    margin-left: 650px;
+}
+
+.jumlah-penumpang{
+    position: absolute;
+    font-size: 25px;
+    margin-top: 325px;
+    margin-left: 1100px;
+}
+
+.Harga-satuan{
+    position: absolute;
+    font-size: 25px;
+    margin-top: 470px;
+    margin-left: 420px;
+}
+
+.Total-Harga{
+    position: absolute;
+    font-size: 25px;
+    margin-top: 470px;
+    margin-left: 880px;
+}
+
+.search-container input[type="text"]{
+    position:absolute;
+    right: 100%;
+    top:25%;
+    width:30%;
+    background-color:white;
+    color:grey;
+}
+
+.form-submit-button {
+    text-align: center;
+    background: #cceaef;
+    color: #0d0d0d;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    width: 20%;
+    margin-left: 600px;
+    margin-top: 600px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow: none;
+  }
+  
+  .form-submit-button:hover {
+    text-align: center;
+    background: #016ABC;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow: none;
+  }
+

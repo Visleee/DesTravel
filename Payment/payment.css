@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height:100vh;
+}
+
+.judul{
+    position: absolute;
+    width: 1500px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centang{
+    position: absolute;
+    width: 1500px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.i{
+    position: absolute;
+    width: 1500px;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.j{
+    position: absolute;
+    width: 1500px;
+    height: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

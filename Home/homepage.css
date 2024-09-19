@@ -1,0 +1,201 @@
+*,
+body{
+    margin:0;
+    padding:0;
+}
+
+.logo{
+    position:absolute;
+    display: flex;
+    width: 80%;
+    height: 80%;
+    margin-top: 15px;
+    margin-left: 130px;
+}
+
+#searchBar{
+    position: absolute;
+    width: 175%;
+    height: 30%;
+    margin-top: 30px;
+    margin-left: 450px;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+a{
+    text-decoration:none;
+    color: black;  
+    transition: 0.3s ease-in-out;
+  }
+  
+  a>div:hover{
+      color: white;
+      
+  }
+
+.container-navbar {
+    background: rgb(138, 235, 255);
+    z-index: 6;
+    width: 100%;
+    height: 15vh;
+    position:fixed;
+}
+
+.ul-navbar {
+    position: absolute;
+    display: flex;
+    height: 100px;
+    margin-top:15px;
+    margin-left: 200px;
+
+}
+
+.li-navbar {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 20px;
+    margin: 5px;
+
+    color: black;
+    text-decoration:100px solid;
+    font-size: 30px;
+}
+
+.kacaPembesar{
+    position: absolute;
+    width: 25%;
+    z-index: 6;
+    height: 25%;
+    margin-left: 87%;
+    margin-top: 45px;
+
+
+    display: flex;
+}
+
+.border1{
+    position:absolute;
+    border: 2px solid black;
+    border-radius: 10px;
+
+    font-size: 18px;
+    font-weight: 100;
+    width:30%;
+    height:55%;
+    top: 20%;
+    left: 3%;
+    margin-left: 470px;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+
+}
+
+.gambar1{
+    display:flex;
+    width: 40%;
+    height: 40%;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+
+.komen1{
+    position: absolute;
+    font-size: 15px;
+    margin-top: 225px;
+}
+
+.komen2{
+    position: absolute;
+    text-align: justify;
+    margin-top: 270px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.border2{
+    position:absolute;
+    border: 2px solid black;
+    border-radius: 10px;
+
+    font-size: 18px;
+    font-weight: 100;
+    width:50%;
+    height: 115%;
+    top: 20%;
+    left: 3%;
+    margin-left: 320px;
+    margin-top: 475px;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+
+}
+
+.gambar2{
+    display:flex;
+    width: 40%;
+    height: 40%;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+
+.komen3{
+    position: absolute;
+    font-size: 15px;
+    margin-top: 400px;
+}
+
+.komen4{
+    position: absolute;
+    text-align: justify;
+    margin-top: 440px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1{
+    margin-left: 22.5%;
+    margin-top: 40px;
+}
+
+.border3{
+    position:absolute;
+    border: 2px solid black;
+    border-radius: 10px;
+
+    font-size: 18px;
+    font-weight: 100;
+    width:80%;
+    height: 60%;
+    margin-top: 1500px;
+    margin-left: 140px;
+    display:flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.gambar3{
+    position: absolute;
+    display: flex;
+    justify-self: start;
+    width: 60%;
+    height: 52.5%;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+.gambar4{
+    position: absolute;
+    display: flex;
+    justify-self: end;
+    width: 50%;
+    height: 52.5%;
+    margin-left: 750px;
+    margin-top: 150px;
+}
